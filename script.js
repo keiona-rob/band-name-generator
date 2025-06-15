@@ -40,7 +40,18 @@ function getRandomIndex(arr) {
   const randomNoun = nouns[getRandomIndex(nouns)];
    return "The " + randomAdjective + " " + randomNoun;
 }
-const newName = generateBandName();
+ const newName = generateBandName();
 console.log(newName); // Example output: "happy cat"
 
 
+const generateButton = document.getElementById("generate-btn");
+const nameDisplay = document.getElementById("nameDisplay");
+
+// Add a click event listener to the button
+generateButton.addEventListener("click", function() {
+
+ const newName = generateBandName(); 
+
+ 
+  band.innerHTML = newName;
+});
