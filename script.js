@@ -1,6 +1,6 @@
- const adjectives = ["Funky", "Loud", "Silent", "Electric", "Wicked", "Groovy"];
+ const adjectives = ["Funky", "Loud", "Silent", "Electric", "Wicked", "Groovy", "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Black", "White", "Gray", "Colorful"];
 
- const nouns = ["Penguins", "Wizards", "Socks", "Robots", "Bananas", "Crows"];
+ const nouns = ["Penguins", "Wizards", "Socks", "Robots", "Bananas", "Crows", "Colors"];
 
 
  
