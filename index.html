@@ -10,29 +10,53 @@
 
  <title>Band Name Generator</title>
 
- 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exile&family=Savate:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+ <link href="style.css" rel="stylesheet" />
 
  </head>
 
- <body>
+
+<header class="bg-cover">
+<img src="band.jpg" class="w-full h-55">
+</header>
+    
+
+ 
+
+ <body class="h-14 bg-linear-65 from-purple-500 to-pink-500">
+
+ <div class="flex flex-col content-center text-center grid gap-10">
 
  <div>
+    <h1>Band Name Generator</h1>
+     <h2> Band Name Generator</h2>
+</div>
 
- <h1>Band Name Generator</h1>
+ <div>
+    <p>Click button to reveal your new band name.</p>
+</div>
 
- <p>Click the button to reveal your new band name.</p>
 
 
-
- <div id="band">
+ <div class="text-fuchsia-900" id="band">
 
  <!-- Band name will appear here -->
 
  </div>
 
 
+<div  >
+ <button class="p-2 outline-4 outline-pink-500 rounded-full bg-pink-400 hover:bg-pink-500 text-2xl font-semibold p-1  " id="generate-btn">Generate Name</button>
+</div>
 
- <button id="generate-btn">Generate Name</button>
 
  </div>
 

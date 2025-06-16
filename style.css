@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+h1{
+    font-family: exile;
+    font-size: 40px;
+}
+
+h2{
+    font-family: bebas neue;
+    font-size: 20px;
+}
+
+#band{
+    font-family: bebas neue;
+    font-size: 40px;
+}
+
+button{
+    font-family: bebas neue;
+    font-size: 40px;
+}
